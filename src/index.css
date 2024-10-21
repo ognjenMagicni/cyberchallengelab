@@ -1,13 +1,451 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root{
+  --person:'./images/person.jpg'
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+*{
+  margin:0px;
+  font-family: Arial, Helvetica, sans-serif;
 }
+
+.important{
+  font-size:120%;
+  font-weight: bold;
+  color:darkred;
+}
+
+#intro{
+  height:100vh;
+  background-color: beige;
+  background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('./images/team.png');
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#introAttack{
+  height:500px;
+  background-image:linear-gradient(rgba(0,100,0,0.7),rgba(0,100,0,0.7)), url('./images/attack_navigator.png');
+  background-size:cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#introAttack h2{
+  font-size: 100px;
+  color:white;
+}
+
+#introAttack p{
+  font-size: 50px;
+  color:white;
+}
+
+
+#intro h2{
+  font-size: 100px;
+  color:white;
+}
+
+#intro p{
+  font-size: 50px;
+  color:white;
+}
+
+.card1{
+  height:500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin:175px 0px;
+}
+.card2{
+  margin:50px 0px;
+  height:500px;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  padding: 100px;
+  box-sizing: border-box;
+  color:white;
+}
+.card21{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  box-sizing: border-box;
+  color:white;
+  border: 5px dashed black;
+}
+
+.card22{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  color:black;
+}
+.container22{
+  padding:30px;
+  background-color: black;
+  color:white;
+  box-shadow: 0px 0px 5px 5px grey;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 400px;
+  line-height: 25px;
+  font-size: 20px;
+}
+
+.subCard{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.subCard:hover{
+  .container21>img{
+    height: 100px;
+  }
+}
+.row{
+  display:flex;
+}
+.column{
+  display:flex;
+  flex-direction: column;
+}
+
+
+.logo{
+  width:500px;
+  height:500px;
+}
+.container1{
+  background-color: black;
+  box-shadow: 0px 0px 15px 15px grey;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  max-width: 1100px;
+  line-height: 25px;
+  box-sizing: border-box;
+  overflow: hidden;
+  height:500px;
+  color:white;
+  margin: 50px 0px;
+}
+.container12{
+  padding:50px 0px 80px 50px;
+  font-size: 30px;
+  font-weight: 100;
+  line-height: 50px;
+  justify-content: space-between;
+  height:100%;
+  box-sizing: border-box;
+}
+.txt1{
+  font-size:18px;
+  line-height: 25px;
+}
+.container13{
+  margin-top:-100px;
+  margin-right:-70px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 300px; /* Adjusted height */
+  text-align: center;
+  background: linear-gradient(to right, #0a2d56, #033469);
+  color: white;
+  box-sizing: border-box;
+  padding:50px;
+  margin:50px 0px;
+}
+
+.title {
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+
+.button {
+  padding: 10px 30px;
+  border: 2px solid white;
+  border-radius: 25px;
+  background-color: transparent;
+  color: white;
+  font-size: 1em;
+  text-decoration: none;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.button:hover {
+  background-color: white;
+  color: #033469; /* Button color change on hover */
+}
+
+.container21{
+  padding-left: 5px;
+  padding: 10px;
+  border-radius: 5px;
+  width:250px;
+  height:75px;
+  transition: width 0.3s ease, height 0.3s ease;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  box-sizing: border-box;
+  align-items: center;
+  overflow: hidden;
+  color:white;
+  text-decoration: none;
+}
+.container21 p{
+  text-decoration: none;
+}
+
+.container21>img{
+  height: 60px;
+  transition: width 0.3s ease, height 0.3s ease;
+}
+.container21>p{
+  font-weight: bold;
+}
+
+.blue{
+  background-color: mediumblue;
+}
+
+.green{
+  background-color: darkgreen;
+}
+
+.yellow{
+  background-color: darkorange;
+}
+
+.red{
+  background-color:tomato;
+}
+
+.blueS{
+  color: mediumblue;
+}
+
+.greenS{
+  color: darkgreen;
+}
+
+.yellowS{
+  color: darkorange;
+}
+
+.redS{
+  color:tomato;
+}
+
+.card3{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.pictures{
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom:20px;
+  padding:0px 30px;
+}
+
+.person{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 5px;
+}
+.part1{
+  background-color: black;
+  width:200px;
+  height:200px;
+  border-radius: 25px 25px 0 0;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.part2{
+  background-color: beige;
+  width:200px;
+  height:50px;
+  border-radius: 0 0 25px 25px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.picture{
+  border-radius: 100px;
+  height:150px;
+  box-shadow: 0px 0px 10px 10px gainsboro;
+  background:linear-gradient(0deg,rgba(120,30,30,0.7) 0% 15% ,rgba(120,30,30,0.2),rgba(0,0,0,0) 60% 100% ) ;
+  background-size: contain; /* Makes sure the image is fully visible */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-position: center; /* Centers the image in the div */
+  width: auto; /* Can set auto if the container is flexible */
+  
+  aspect-ratio: 1 / 1;
+}
+
+
+
+
+.personText{
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.sponsors{
+  display:grid;
+  grid-template-columns: repeat(2,1fr);
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom:30px;
+  margin-top:30px;
+}
+.sponsor{
+  display:flex;
+  flex-direction: row;
+  align-content: flex-start;
+  justify-content: center;
+  margin:5px 0px;
+  margin-left:10px;
+}
+.sponsor>p{
+  color:white;
+  text-align: center;
+}
+.sPic{
+  height:50px;
+  width:auto;
+  border-radius: 5px;
+  object-fit: contain;
+}
+
+.team{
+  text-align: center;
+  padding-top:30px;
+  padding-bottom: 15px;
+}
+
+.teamDiv{
+  flex:2;
+  padding: 5px 15px;
+}
+
+.sponsorDiv{
+  flex:1;
+  padding: 5px 45px;
+  box-sizing: border-box;
+}
+
+.glup{
+  background-image:linear-gradient(rgba(50,140,50,0.2),rgba(50,140,50,0.7)),url('./images/person.jpg');
+  background-size: contain; /* Makes sure the image is fully visible */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-position: center; /* Centers the image in the div */
+  width: 50px; /* Can set auto if the container is flexible */
+  height: auto; /* Can set auto if the container is flexible */
+  aspect-ratio: 1 / 1;
+}
+
+.testimonials-section {
+  padding:50px;
+  background-color: #000; 
+  color: white;
+  margin:0px;
+}
+
+.title1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+  text-align:start;
+}
+
+.subtitle1 {
+  font-size: 1.2em;
+  margin-bottom: 50px;
+  font-weight: 300;
+  text-align:start;
+}
+
+.testimonials {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding:0px 100px;
+}
+
+.testimonial-card {
+  width: 300px;
+  margin-bottom: 30px;
+  background: darkred;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  transition: transform 0.3s;
+  text-align: center;
+}
+
+.testimonial-card:hover {
+  transform: scale(1.05);
+}
+
+.testimonial-image {
+  width: 100%;
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+}
+
+.name {
+  padding: 15px;
+  font-size: 1em;
+  font-weight: bold;
+  background: darkred;
+}
+
+.play-button {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.play-button::before {
+  content: '▶'; /* Play icon */
+  color: black;
+  font-size: 14px;
+}
+
+
