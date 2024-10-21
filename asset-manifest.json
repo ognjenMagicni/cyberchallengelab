@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/homepage/static/css/main.1c63a604.css",
-    "main.js": "/homepage/static/js/main.63dee124.js",
-    "static/js/453.8ab44547.chunk.js": "/homepage/static/js/453.8ab44547.chunk.js",
-    "static/media/team.png": "/homepage/static/media/team.c451543f0dd2d2f55f0f.png",
-    "static/media/attack_navigator.png": "/homepage/static/media/attack_navigator.f9032fc41f1021e14cec.png",
-    "static/media/person.jpg": "/homepage/static/media/person.2b768c1b96906765a4ef.jpg",
-    "static/media/database.png": "/homepage/static/media/database.9a2fda708562eddd097a.png",
-    "static/media/UCG_logo.jpg": "/homepage/static/media/UCG_logo.1b2675dbcf2272821616.jpg",
-    "static/media/cikom_logo.png": "/homepage/static/media/cikom_logo.08b5268968b762ae7898.png",
-    "static/media/chart.png": "/homepage/static/media/chart.12dcc23f331b98341699.png",
-    "static/media/logo.png": "/homepage/static/media/logo.c8b940bd5205488f26a2.png",
-    "static/media/defense.png": "/homepage/static/media/defense.a128ba63c945a2042b54.png",
-    "static/media/attack.png": "/homepage/static/media/attack.63e14695d7cbde43f14e.png",
-    "static/media/logo.svg": "/homepage/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/homepage/index.html",
-    "main.1c63a604.css.map": "/homepage/static/css/main.1c63a604.css.map",
-    "main.63dee124.js.map": "/homepage/static/js/main.63dee124.js.map",
-    "453.8ab44547.chunk.js.map": "/homepage/static/js/453.8ab44547.chunk.js.map"
+    "main.css": "/cyberchallengelab/static/css/main.3193e7dd.css",
+    "main.js": "/cyberchallengelab/static/js/main.75ccfd96.js",
+    "static/js/453.8ab44547.chunk.js": "/cyberchallengelab/static/js/453.8ab44547.chunk.js",
+    "static/media/team.png": "/cyberchallengelab/static/media/team.c451543f0dd2d2f55f0f.png",
+    "static/media/attack_navigator.png": "/cyberchallengelab/static/media/attack_navigator.f9032fc41f1021e14cec.png",
+    "static/media/person.jpg": "/cyberchallengelab/static/media/person.2b768c1b96906765a4ef.jpg",
+    "static/media/database.png": "/cyberchallengelab/static/media/database.9a2fda708562eddd097a.png",
+    "static/media/UCG_logo.jpg": "/cyberchallengelab/static/media/UCG_logo.1b2675dbcf2272821616.jpg",
+    "static/media/cikom_logo.png": "/cyberchallengelab/static/media/cikom_logo.08b5268968b762ae7898.png",
+    "static/media/chart.png": "/cyberchallengelab/static/media/chart.12dcc23f331b98341699.png",
+    "static/media/logo.png": "/cyberchallengelab/static/media/logo.c8b940bd5205488f26a2.png",
+    "static/media/defense.png": "/cyberchallengelab/static/media/defense.a128ba63c945a2042b54.png",
+    "static/media/attack.png": "/cyberchallengelab/static/media/attack.63e14695d7cbde43f14e.png",
+    "static/media/logo.svg": "/cyberchallengelab/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/cyberchallengelab/index.html",
+    "main.3193e7dd.css.map": "/cyberchallengelab/static/css/main.3193e7dd.css.map",
+    "main.75ccfd96.js.map": "/cyberchallengelab/static/js/main.75ccfd96.js.map",
+    "453.8ab44547.chunk.js.map": "/cyberchallengelab/static/js/453.8ab44547.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1c63a604.css",
-    "static/js/main.63dee124.js"
+    "static/css/main.3193e7dd.css",
+    "static/js/main.75ccfd96.js"
   ]
 }
