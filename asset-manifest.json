@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/cyberchallengelab/static/css/main.3193e7dd.css",
-    "main.js": "/cyberchallengelab/static/js/main.c2b7b809.js",
+    "main.js": "/cyberchallengelab/static/js/main.fd43d46d.js",
     "static/js/453.8ab44547.chunk.js": "/cyberchallengelab/static/js/453.8ab44547.chunk.js",
     "static/media/team.png": "/cyberchallengelab/static/media/team.c451543f0dd2d2f55f0f.png",
     "static/media/ognjen.png": "/cyberchallengelab/static/media/ognjen.9c9c0ec8f1926e9c463b.png",
     "static/media/attack_navigator.png": "/cyberchallengelab/static/media/attack_navigator.f9032fc41f1021e14cec.png",
-    "static/media/mirka.png": "/cyberchallengelab/static/media/mirka.66e5786c1aca423590c1.png",
+    "static/media/mirka.png": "/cyberchallengelab/static/media/mirka.e1c1320030c5646cc43f.png",
     "static/media/andjela.jpg": "/cyberchallengelab/static/media/andjela.8e542b74220c736d0c57.jpg",
     "static/media/person.jpg": "/cyberchallengelab/static/media/person.2b768c1b96906765a4ef.jpg",
     "static/media/database.png": "/cyberchallengelab/static/media/database.9a2fda708562eddd097a.png",
@@ -19,11 +19,11 @@
     "static/media/logo.svg": "/cyberchallengelab/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/cyberchallengelab/index.html",
     "main.3193e7dd.css.map": "/cyberchallengelab/static/css/main.3193e7dd.css.map",
-    "main.c2b7b809.js.map": "/cyberchallengelab/static/js/main.c2b7b809.js.map",
+    "main.fd43d46d.js.map": "/cyberchallengelab/static/js/main.fd43d46d.js.map",
     "453.8ab44547.chunk.js.map": "/cyberchallengelab/static/js/453.8ab44547.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3193e7dd.css",
-    "static/js/main.c2b7b809.js"
+    "static/js/main.fd43d46d.js"
   ]
 }
